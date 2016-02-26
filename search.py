@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 
 import numbers
-import googlemaps
-import cma
-import numpy as np
-import pprint
-import codecs
-from variables import setter
-import new_math as math
 import sys
+
+import cma
+import googlemaps
+import numpy as np
+
+import new_math as math
+from utilities.variables import setter
 
 EARTH_RADIUS = 6371
 KEY = 'AIzaSyD5WVuhfdPzGVvq2VXCSAxDw4EYL_7pjsA'
